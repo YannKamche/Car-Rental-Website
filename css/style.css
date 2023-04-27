@@ -110,11 +110,13 @@ header {
     font-size: 3.5rem;
     letter-spacing: 2px;
 }
-.text span {
+.text .looking,
+.text .click {
     color: var(--main-color);
 }
 .text p {
     margin: 0.5rem 0 1rem;
+    font-size: 1.5rem;
 }
 .app-stores {
     display: flex;
