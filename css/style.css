@@ -114,7 +114,8 @@ header {
     letter-spacing: 2px;
 }
 .text .looking,
-.text .click {
+.text .click,
+.text .question-mark {
     color: var(--main-color);
 }
 .text p {
