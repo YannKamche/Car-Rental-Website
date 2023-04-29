@@ -20,6 +20,8 @@
     --background-header: #eeeff1;
     --background-sign-in: #474fa0;
     --color-sign-in: #fff;
+    --color-btn: #fff;
+    --background-btn: #474fa0;
 }
 /* Custom Scroll Bar */
 html::-webkit-scrollbar {
@@ -35,6 +37,7 @@ html::-webkit-scrollbar-thumb {
 section {
     padding: 50px 100px;
 }
+/* Header Style */
 header {
     position: fixed;
     width: 100%;
@@ -94,6 +97,7 @@ header {
 .header-btn .sign-in:hover {
     background: var(--main-color);
 }
+/* Home Style */
 .home {
     width: 100%;
     min-height: 100vh;
@@ -181,6 +185,7 @@ header {
 .heading h1 {
     font-size: 2rem;
 }
+/* Ride Style */
 .ride-container {
     display: grid;
     align-items: center;
@@ -210,6 +215,8 @@ header {
     background: var(--gradient);
     color: #fff;
 }
+
+/* Services Style */
 .services .heading h1 {
     text-transform: capitalize;
 }
@@ -242,4 +249,58 @@ header {
     width: 58px;
     border-radius: 0.5rem;
     margin: 1rem 0 1rem;
+}
+.services-container .box h3 {
+    font-weight: 500;
+}
+.services-container .box h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 0.2rem 0 0.5rem;
+}
+.services-container .box h2 span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.services-container .box .btn {
+    display: flex;
+    background-color: var(--background-btn);
+    justify-content: center;
+    color: var(--color-btn);
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+.services-container .box .btn:hover {
+    background: var(--main-color);
+}
+/* ABOUt */
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1em;
+    margin: 1rem;
+}
+.about-img img {
+    width: 100%;
+}
+.about-text span {
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.about-text p {
+    margin: 0.5rem 0 1.4rem;
+}
+.about-text .btn {
+    padding: 10px 20px;
+    background: #474fa0;
+    color: var(--color-btn);
+    border-radius: 0.5rem;
+}
+.about-text .btn:hover {
+    background: var(--main-color);
 }
