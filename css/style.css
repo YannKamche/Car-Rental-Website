@@ -109,10 +109,9 @@ header {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
+    
 }
-.text {
-    margin-left: 3rem;
-}
+
 .text h1 {
     font-size: 3.5rem;
     letter-spacing: 2px;
@@ -385,4 +384,54 @@ header {
     color: #444;
     padding: 10px;
     font-size: 21px;
+}
+/* Responsiveness */
+@media (max-width: 991px) {
+    header {
+        padding: 18px 40px;
+    }
+    section {
+        padding: 50px 40px;
+    }
+}
+@media (max-width: 881px) {
+    .home {
+        background-position: left;
+    }
+    .form-container {
+        bottom: 0.2rem;
+        left: 40px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        padding: 11px 40px;
+    }
+   #menu-icon {
+    display: initial;
+   }
+   .signup {
+    display: none;
+   }
+   .text h1 {
+    font-size: 2.5rem;
+   }
+   .home {
+    grid-template-columns: 1fr;
+   }
+   .form-container form {
+    position: unset;
+   }
+   header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    text-align: left;
+   }
 }
