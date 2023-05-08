@@ -1,2 +1,2 @@
 # Digital-Cars
-A fully responsive car rental website built using html, css &amp; JavaScript
+A fully responsive Car Rental website built using html, css &amp; JavaScript
