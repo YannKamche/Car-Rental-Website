@@ -1,5 +1,6 @@
 # Digital-Cars
 A fully responsive Car Rental website built using html, css &amp; JavaScript
+## Home
 ![Screenshot (399)](https://github.com/YannKamche/Car-Rental-Website/assets/122357201/a5441167-ea7c-4567-bb5e-b4e605d49f0c)
 ![Screenshot (400)](https://github.com/YannKamche/Car-Rental-Website/assets/122357201/eb4d2e1f-3081-4730-abca-f754da7a3050)
 ![Screenshot (401)](https://github.com/YannKamche/Car-Rental-Website/assets/122357201/3fb4f883-3853-4de3-b97f-24debc891415)
