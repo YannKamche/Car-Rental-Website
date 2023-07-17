@@ -1,4 +1,4 @@
-# Digital-Cars   
+# Digital-Cars    
 ## Preview: https://digital-car-rental.netlify.app/
 A fully responsive Car Rental website built using html, css &amp; JavaScript
 ## Home
